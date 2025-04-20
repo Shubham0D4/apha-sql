@@ -1,0 +1,20 @@
+{
+  "name": "alpha-sql",
+  "version": "1.0.3",
+  "description": "This module is created to simplify the connectivity of database and backend. This module provides function based support for SQL queries. This module helps to avoid writing raw sql queries in you backend code. It can be used along with any backend tech like express, node, next.js etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Darekar",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.14.0"
+  },
+  "files": [
+  "index.js",
+  "readme.md"
+  ],
+  "keywords": ["mysql", "nodejs", "query builder", "sql", "wrapper", "lightweight", "database", "connectivity", "data", "alpha-sql"]
+
+}
