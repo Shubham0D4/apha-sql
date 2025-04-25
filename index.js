@@ -22,7 +22,7 @@ function connect(obj) {
 function disconnect() {
     return new Promise((resolve, reject) => {
         if (!connection) {
-            console.warn("⚠️ No active connection to disconnect.");
+            console.warn("No active connection to disconnect.");
             return resolve();
         }
 
